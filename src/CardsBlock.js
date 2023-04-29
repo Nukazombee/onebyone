@@ -1,6 +1,6 @@
 import Card from './Card.js'
 
-function Cards_block(props)
+function CardsBlock(props)
 {
   return (
     <div className="bak">
@@ -22,4 +22,4 @@ function Cards_block(props)
 }
 
 
-export default Cards_block;
+export default CardsBlock;

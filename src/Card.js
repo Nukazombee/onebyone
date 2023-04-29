@@ -5,7 +5,7 @@ export default function Card (props) {
         SELL
       </div>
       <div className="image_div">
-        <img className="charimage" src={props.image}></img>
+        <img className="charimage" src={props.image} alt="terra"></img>
       </div>
       <div className="infodiv">
         
