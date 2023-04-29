@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Cards_block from './Cards_block';
+import CardsBlock from './CardsBlock';
 import FilterButton from './FilterButton';
 import Header from './Header.js'
 
@@ -38,7 +38,7 @@ function Filters (props) {
       
     </div>
       <div>
-        <Cards_block cards={filteredCards} />
+        <CardsBlock cards={filteredCards} />
       </div>
     </div>
   );
